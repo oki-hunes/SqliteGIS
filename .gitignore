@@ -1,0 +1,71 @@
+# Build directories
+Workspace/build/
+Workspace/cmake-build-*/
+
+# CMake generated files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.cmake
+!CMakeLists.txt
+
+# Compiled object files
+*.o
+*.obj
+*.lo
+*.slo
+
+# Compiled dynamic libraries
+*.so
+*.dylib
+*.dll
+*.la
+
+# Executables
+*.exe
+*.out
+*.app
+test_3d_quick
+
+# Package files
+*.tar.gz
+*.zip
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# SQLite files
+*.db
+*.sqlite
+*.sqlite3
+
+# Log files
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+
+# Third party build artifacts
+third_party/sqlite-autoconf-*/config.status
+third_party/sqlite-autoconf-*/config.log
+third_party/sqlite-autoconf-*/libtool
+third_party/sqlite-autoconf-*/Makefile
+third_party/sqlite-autoconf-*/sqlite3
+third_party/sqlite-autoconf-*/sqlite3.1
+third_party/sqlite-autoconf-*/sqlite3.lo
+third_party/sqlite-autoconf-*/libsqlite3.la
+third_party/sqlite-autoconf-*/.libs/
+third_party/sqlite-autoconf-*/.deps/
+third_party/sqlite-install/
+
+# Backup files
+*_backup
+*.backup
