@@ -48,6 +48,7 @@ add_library(sqlitegis SHARED
 set_target_properties(sqlitegis PROPERTIES
     OUTPUT_NAME "sqlitegis"
     PREFIX ""
+    WINDOWS_EXPORT_ALL_SYMBOLS ON
 )
 
 target_include_directories(sqlitegis
