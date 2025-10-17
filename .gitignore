@@ -1,6 +1,9 @@
 # Build directories
 Workspace/build/
 Workspace/cmake-build-*/
+Driver/build/
+build/
+out/
 
 # CMake generated files
 CMakeCache.txt
@@ -21,6 +24,20 @@ Makefile
 *.dylib
 *.dll
 *.la
+*.lib
+*.a
+*.pdb
+*.ilk
+*.exp
+
+# Visual Studio files
+.vs/
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.sln
+*.user
+*.suo
 
 # Executables
 *.exe
@@ -65,6 +82,16 @@ third_party/sqlite-autoconf-*/libsqlite3.la
 third_party/sqlite-autoconf-*/.libs/
 third_party/sqlite-autoconf-*/.deps/
 third_party/sqlite-install/
+
+# GDAL third party (exclude most files, keep only minimal config)
+third_party/gdal-3.7.2/*
+!third_party/gdal-3.7.2/port/
+!third_party/gdal-3.7.2/gcore/
+third_party/gdal-3.7.2/port/*
+!third_party/gdal-3.7.2/port/cpl_config.h
+third_party/gdal-3.7.2/gcore/*
+!third_party/gdal-3.7.2/gcore/gdal_version.h
+third_party/*.tar.gz
 
 # Backup files
 *_backup
